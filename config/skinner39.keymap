@@ -95,10 +95,10 @@
 
         media_functions_layer {
             bindings = <
-  &kp K_STOP         &kp K_PLAY_PAUSE  &kp K_PREVIOUS     &kp K_NEXT       &bt BT_SEL 2                      &kp INSERT       &kp F7              &kp F8         &kp F9            &kp F12
-  &kp C_RANDOM_PLAY  &kp K_MUTE        &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &bt BT_SEL 1                      &kp CAPSLOCK     &kp F4              &kp F5         &kp F6            &kp F11
-  &kp LEFT_WIN       &kp LEFT_ALT      &kp LCTRL          &kp LEFT_SHIFT   &bt BT_SEL 0                      &kp PRINTSCREEN  &hmr LEFT_SHIFT F1  &hmr LCTRL F2  &hmr LEFT_ALT F3  &hmr LEFT_WIN F10
-  &trans             &trans            &trans             &kp ESC          &kp SPACE     &kp TAB  &kp ENTER  &kp BACKSPACE                                                         &trans
+  &kp C_STOP                         &kp C_PLAY_PAUSE  &kp C_PREVIOUS     &kp C_NEXT       &bt BT_SEL 2                      &kp INSERT       &kp F7              &kp F8         &kp F9            &kp F12
+  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp K_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &bt BT_SEL 1                      &kp CAPSLOCK     &kp F4              &kp F5         &kp F6            &kp F11
+  &kp LEFT_WIN                       &kp LEFT_ALT      &kp LCTRL          &kp LEFT_SHIFT   &bt BT_SEL 0                      &kp PRINTSCREEN  &hmr LEFT_SHIFT F1  &hmr LCTRL F2  &hmr LEFT_ALT F3  &hmr LEFT_WIN F10
+  &trans                             &trans            &trans             &kp ESC          &kp SPACE     &kp TAB  &kp ENTER  &kp BACKSPACE                                                         &trans
             >;
         };
 
