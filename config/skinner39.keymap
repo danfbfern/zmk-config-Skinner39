@@ -85,10 +85,10 @@
 
         navigation_number_layer {
             bindings = <
-  &kp HOME      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8         &kp NUMBER_9            &kp PLUS
-  &kp END       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET                          &kp RIGHT_BRACKET      &kp NUMBER_4  &kp N5               &kp NUMBER_6            &kp MINUS
-  &kp LEFT_WIN  &kp LEFT_ALT    &kp LCTRL       &none            &kp LEFT_BRACE                            &kp RIGHT_BRACE        &kp NUMBER_1  &hmr LCTRL NUMBER_2  &hmr LEFT_ALT NUMBER_3  &hmr LEFT_WIN NUMBER_0
-  &trans        &trans          &trans          &kp ESC          &trans                &kp TAB  &kp ENTER  &trans                                                                            &trans
+  &kp HOME      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp NUMBER_7          &kp NUMBER_8         &kp NUMBER_9            &kp PLUS
+  &kp END       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET                          &kp RIGHT_BRACKET      &kp NUMBER_4          &kp N5               &kp NUMBER_6            &kp MINUS
+  &kp LEFT_WIN  &kp LEFT_ALT    &kp LCTRL       &kp LSHIFT       &kp LEFT_BRACE                            &kp RIGHT_BRACE        &hmr LSHIFT NUMBER_1  &hmr LCTRL NUMBER_2  &hmr LEFT_ALT NUMBER_3  &hmr LEFT_WIN NUMBER_0
+  &trans        &trans          &trans          &kp ESC          &trans                &kp TAB  &kp ENTER  &trans                                                                                    &trans
             >;
         };
 
@@ -103,10 +103,10 @@
 
         symbols_layer {
             bindings = <
-  &kp PERCENT      &kp CARET     &kp AMPERSAND         &kp ASTERISK  &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON     &kp UNDERSCORE  &kp PLUS
-  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp DOLLAR    &kp LEFT_BRACKET                          &kp RIGHT_BRACKET      &kp SLASH      &kp QUESTION  &kp EQUAL       &kp MINUS
-  &kp LEFT_WIN     &kp LEFT_ALT  &hml LCTRL BACKSLASH  &kp PIPE      &kp LEFT_BRACE                            &kp RIGHT_BRACE        &none          &kp LCTRL     &kp LEFT_ALT    &kp LEFT_WIN
-  &trans           &trans        &trans                &kp ESC       &trans                &kp TAB  &kp ENTER  &trans                                                              &trans
+  &kp PERCENT      &kp CARET     &kp AMPERSAND         &kp ASTERISK      &kp LEFT_PARENTHESIS                      &kp RIGHT_PARENTHESIS  &kp SEMICOLON   &kp COLON     &kp UNDERSCORE  &kp PLUS
+  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp DOLLAR        &kp LEFT_BRACKET                          &kp RIGHT_BRACKET      &kp SLASH       &kp QUESTION  &kp EQUAL       &kp MINUS
+  &kp LEFT_WIN     &kp LEFT_ALT  &hml LCTRL BACKSLASH  &hml LSHIFT PIPE  &kp LEFT_BRACE                            &kp RIGHT_BRACE        &kp LEFT_SHIFT  &kp LCTRL     &kp LEFT_ALT    &kp LEFT_WIN
+  &trans           &trans        &trans                &kp ESC           &trans                &kp TAB  &kp ENTER  &trans                                                               &trans
             >;
         };
 
